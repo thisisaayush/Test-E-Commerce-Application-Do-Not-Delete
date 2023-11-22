@@ -359,7 +359,6 @@ C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bi
 C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\obj\Debug\net8.0\E-commerce-Application.csproj.AssemblyReference.cache
-C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\obj\Debug\net8.0\E-commerce-Application.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\obj\Debug\net8.0\E-commerce-Application.csproj.CopyComplete
 C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\Azure.Identity.dll
@@ -556,3 +555,9 @@ C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bi
 C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\Bulky.DataAccess.dll
+C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\Bulky.Models.dll
+C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\Bulky.Utility.dll
+C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\Bulky.DataAccess.pdb
+C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\Bulky.Models.pdb
+C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\Bulky.Utility.pdb
