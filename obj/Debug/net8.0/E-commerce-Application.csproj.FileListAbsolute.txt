@@ -561,3 +561,11 @@ C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bi
 C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\Bulky.DataAccess.pdb
 C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\Bulky.Models.pdb
 C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\Bulky.Utility.pdb
+C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\obj\Debug\net8.0\E-commerce-Application.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\System.Web.Mvc.dll
+C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\System.Web.Razor.dll
+C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\System.Web.Helpers.dll
+C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\System.Web.WebPages.Deployment.dll
+C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
+C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\System.Web.WebPages.dll
+C:\Users\thaku\Desktop\BulkyWeb\E-commerce-Application\E-commerce-Application\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll
