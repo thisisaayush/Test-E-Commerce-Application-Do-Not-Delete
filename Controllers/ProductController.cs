@@ -6,17 +6,17 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace E_commerce_Application.Controllers
 {
-    public class CategoryController : Controller
+    public class ProductController : Controller
     {
         private readonly IUnitOfWork _unitofwork;
-        public CategoryController(IUnitOfWork unitofWork)
+        public ProductController(IUnitOfWork unitofWork)
         {
             _unitofwork = unitofWork;
         }
         public IActionResult Index() //goes to index.cshtml class in Views/Category folder.
         {
-            List<Category> objCategoryList = _unitofwork.Category.GetAll().ToList();
-            return View(objCategoryList);
+            List<Product> objProductList = _unitofwork.Product.GetAll().ToList();
+            return View(objProductList);
         }
 
         public IActionResult Create()
@@ -25,16 +25,16 @@ namespace E_commerce_Application.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Category obj)
+        public IActionResult Create(Product obj)
         {
-            if (obj.Name == obj.DisplayOrder.ToString())
+            if (obj.ISBN == obj.Author.ToString())
             {
                 ModelState.AddModelError("name", "Category Name and Display Order is same!");
             }
 
             if (ModelState.IsValid)
             {
-                _unitofwork.Category.Add(obj);
+                _unitofwork.Product.Add(obj);
                 _unitofwork.Save();   
                 TempData["success"] = "Category created successfully!";
                 return RedirectToAction("Index");
