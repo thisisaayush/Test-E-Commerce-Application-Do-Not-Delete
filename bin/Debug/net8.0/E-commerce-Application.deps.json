@@ -37,7 +37,7 @@
         "dependencies": {
           "Bulky.DataAccess": "1.0.0",
           "Bulky.Models": "1.0.0",
-          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "7.0.13",
+          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "8.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.0-rc.2.23480.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-rc.2.23480.1",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.0-rc.2.23480.1",
@@ -1001,20 +1001,20 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/7.0.13": {
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/8.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.Extensions": "6.0.0",
           "Microsoft.CodeAnalysis.Razor": "6.0.24",
           "Microsoft.Extensions.DependencyModel": "8.0.0"
         },
         "runtime": {
-          "lib/net7.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll": {
-            "assemblyVersion": "7.0.13.0",
-            "fileVersion": "7.0.1323.52007"
+          "lib/net8.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53112"
           }
         },
         "compile": {
-          "lib/net7.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll": {}
+          "lib/net8.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll": {}
         }
       },
       "Microsoft.AspNetCore.Razor.Language/6.0.24": {
@@ -2545,6 +2545,7 @@
           "Bulky.Models": "1.0.0",
           "Bulky.Utility": "1.0.0",
           "Microsoft.AspNet.Mvc": "5.3.0",
+          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "8.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.0-rc.2.23480.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0-rc.2.23480.1"
         },
@@ -2556,6 +2557,9 @@
         }
       },
       "Bulky.Models/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "8.0.0"
+        },
         "runtime": {
           "Bulky.Models.dll": {}
         },
@@ -2564,6 +2568,9 @@
         }
       },
       "Bulky.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "8.0.0"
+        },
         "runtime": {
           "Bulky.Utility.dll": {}
         },
@@ -4753,12 +4760,12 @@
       "path": "microsoft.aspnetcore.mvc.razor.extensions/6.0.0",
       "hashPath": "microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/7.0.13": {
+    "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Uspn3ppgjd2H4saPPGdOuybw7GyHe7zzsci+Ryc5lxGh8P91B8k/6DgOhcdcxmXi7Tn0FP82KfqeAlvFjBCMKQ==",
-      "path": "microsoft.aspnetcore.mvc.razor.runtimecompilation/7.0.13",
-      "hashPath": "microsoft.aspnetcore.mvc.razor.runtimecompilation.7.0.13.nupkg.sha512"
+      "sha512": "sha512-HyLDtyWwpavSEFBOL0qOdymY8f+VwN5QhhE7gj3wBw53j9EA0ZcYkbfTvkhvMeV9PavgCcMIe4sAsBGEE/YnNA==",
+      "path": "microsoft.aspnetcore.mvc.razor.runtimecompilation/8.0.0",
+      "hashPath": "microsoft.aspnetcore.mvc.razor.runtimecompilation.8.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Language/6.0.24": {
       "type": "package",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Taqlyxx3YP/BRsQUNSqb/vHv3l/QmqfZ3hg6wTN9KnFtr1RKVgipv5mtVDS2ghTz3iQDy7U3wsYXj+A91IRaLA==",
+  "dgSpecHash": "Ci8btsipdkjO1r0XAAi1yw3Pirq1JnHMqPoUjHicCWo4EIr6++FaWsz8iNCri+5/fxDlwV35ZIGp1g6PYPikpw==",
   "success": true,
   "projectFilePath": "C:\\Users\\thaku\\Desktop\\BulkyWeb\\E-commerce-Application\\E-commerce-Application\\E-commerce-Application.csproj",
   "expectedPackageFiles": [
@@ -60,7 +60,7 @@
     "C:\\Users\\thaku\\.nuget\\packages\\microsoft.aspnet.razor\\3.3.0\\microsoft.aspnet.razor.3.3.0.nupkg.sha512",
     "C:\\Users\\thaku\\.nuget\\packages\\microsoft.aspnet.webpages\\3.3.0\\microsoft.aspnet.webpages.3.3.0.nupkg.sha512",
     "C:\\Users\\thaku\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.0\\microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
-    "C:\\Users\\thaku\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\7.0.13\\microsoft.aspnetcore.mvc.razor.runtimecompilation.7.0.13.nupkg.sha512",
+    "C:\\Users\\thaku\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\8.0.0\\microsoft.aspnetcore.mvc.razor.runtimecompilation.8.0.0.nupkg.sha512",
     "C:\\Users\\thaku\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.24\\microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
     "C:\\Users\\thaku\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\thaku\\.nuget\\packages\\microsoft.build\\17.7.2\\microsoft.build.17.7.2.nupkg.sha512",
