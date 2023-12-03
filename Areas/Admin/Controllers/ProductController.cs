@@ -4,8 +4,9 @@ using Bulky.DataAccess.Repository.IRepository;
 using Bulky.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace E_commerce_Application.Controllers
+namespace E_commerce_Application.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class ProductController : Controller
     {
         private readonly IUnitOfWork _unitofwork;
@@ -13,7 +14,7 @@ namespace E_commerce_Application.Controllers
         {
             _unitofwork = unitofWork;
         }
-        public IActionResult Index() //goes to index.cshtml class in Views/Category folder.
+        public IActionResult Index() //goes to index.cshtml class in Views/Product folder.
         {
             List<Product> objProductList = _unitofwork.Product.GetAll().ToList();
             return View(objProductList);
@@ -27,19 +28,14 @@ namespace E_commerce_Application.Controllers
         [HttpPost]
         public IActionResult Create(Product obj)
         {
-            if (obj.ISBN == obj.Author.ToString())
-            {
-                ModelState.AddModelError("name", "Category Name and Display Order is same!");
-            }
-
             if (ModelState.IsValid)
             {
                 _unitofwork.Product.Add(obj);
-                _unitofwork.Save();   
-                TempData["success"] = "Category created successfully!";
+                _unitofwork.Save();
+                TempData["success"] = "Product created successfully!";
                 return RedirectToAction("Index");
             }
-            return View(); 
+            return View();
         }
 
         public IActionResult Edit(int? id)
@@ -50,22 +46,22 @@ namespace E_commerce_Application.Controllers
                 return NotFound();
             }
 
-            Category categoryFromDb = _unitofwork.Category.Get(u=>u.Id==id);
-            
-            if (categoryFromDb == null)
+            Product productFromDb = _unitofwork.Product.Get(u => u.Id == id);
+
+            if (productFromDb == null)
             {
                 return NotFound();
             }
-            return View(categoryFromDb);
+            return View(productFromDb);
         }
         [HttpPost]
-        public IActionResult Edit(Category obj)
+        public IActionResult Edit(Product obj)
         {
             if (ModelState.IsValid)
             {
-                _unitofwork.Category.Update(obj);
+                _unitofwork.Product.Update(obj);
                 _unitofwork.Save();
-                TempData["success"] = "Category edited successfully!";
+                TempData["success"] = "Product edited successfully!";
                 return RedirectToAction("Index");
             }
             return View();
@@ -79,28 +75,28 @@ namespace E_commerce_Application.Controllers
                 return NotFound();
             }
 
-            Category categoryFromDb = _unitofwork.Category.Get(u => u.Id == id);
+            Product productFromDb = _unitofwork.Product.Get(u => u.Id == id);
 
-            if (categoryFromDb == null)
+            if (productFromDb == null)
             {
                 return NotFound();
             }
-            return View(categoryFromDb);
+            return View(productFromDb);
 
         }
         [HttpPost, ActionName("Delete")]
         public IActionResult DeletePost(int? id)
         {
-            Category? obj = _unitofwork.Category.Get(u => u.Id == id);
+            Product? obj = _unitofwork.Product.Get(u => u.Id == id);
             if (obj == null)
             {
                 return NotFound();
             }
-            _unitofwork.Category.Remove(obj);
+            _unitofwork.Product.Remove(obj);
             _unitofwork.Save();
-            TempData["success"] = "Category deleted successfully!";
+            TempData["success"] = "Product deleted successfully!";
             return RedirectToAction("Index");
         }
-             
+
     }
 }
