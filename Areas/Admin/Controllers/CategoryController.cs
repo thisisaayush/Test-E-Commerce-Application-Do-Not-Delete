@@ -51,7 +51,7 @@ namespace E_commerce_Application.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            Category categoryFromDb = _unitofwork.Category.Get(u => u.Id == id);
+            Category categoryFromDb = _unitofwork.Category.Get(u => u.CategoryId == id);
 
             if (categoryFromDb == null)
             {
@@ -80,7 +80,7 @@ namespace E_commerce_Application.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            Category categoryFromDb = _unitofwork.Category.Get(u => u.Id == id);
+            Category categoryFromDb = _unitofwork.Category.Get(u => u.CategoryId == id);
 
             if (categoryFromDb == null)
             {
@@ -92,7 +92,7 @@ namespace E_commerce_Application.Areas.Admin.Controllers
         [HttpPost, ActionName("Delete")]
         public IActionResult DeletePost(int? id)
         {
-            Category? obj = _unitofwork.Category.Get(u => u.Id == id);
+            Category? obj = _unitofwork.Category.Get(u => u.CategoryId == id);
             if (obj == null)
             {
                 return NotFound();
